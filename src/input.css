@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import "tailwindcss";
+
+
+@layer components {
+    .text-preset1-bold {
+        @apply text-lg leading-tight font-bold text-navy950;
+    }
+
+    .text-preset1-regular {
+        @apply text-lg leading-tight font-normal text-gray500;
+    }
+
+    .text-preset2-regular {
+        @apply text-sm leading-tight font-normal text-gray500;
+    }
+
+    .text-preset3-regular {
+        @apply text-xxs leading-tight font-normal tracking-[1.5px] text-gray500;
+    }
+
+
+}
+
+@theme {
+    --font-kumbh: "Kumbh Sans", sans-serif;
+    --color-blue400: #41CBD3;
+    --color-blue600: #19A1AE;
+    --color-gray500: #6B7082;
+    --color-gray100: #E8E9EC;
+    --color-navy950: #2E3349;
+    --text-xxs: 0.625rem;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Profile Card Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./output.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-blue600 min-h-screen flex justify-center items-center font-kumbh">
+    <main class="md:w-[350px] w-[326px] bg-white rounded-2xl overflow-hidden">
+        <div aria-hidden="true" class="bg-blue400 aspect-[350/144] bg-[url(../assets/fondo.webp)] bg-cover bg-center">
+        </div>
+        <section class="flex flex-col items-center -mt-12">
+            <img class="w-24 h-24 rounded-full" src="../assets/Oval.webp" alt="Avatar de Victor" width="96" height="96">
+            <div class="flex flex-col gap-6 items-center w-full">
+                <div class="flex flex-col gap-2 items-center">
+                    <div class="flex gap-2">
+                        <h1 class="text-preset1-bold">Victor Crest</h1>
+                        <span class="text-preset1-regular">26</span>
+                    </div>
+                    <h2 class="text-preset2-regular">
+                        London
+                    </h2>
+                </div>
+                <dl class="w-full flex justify-evenly py-6 border-t border-t-gray100 text-center">
+                    <div class="flex gap-2 flex-col-reverse">
+                        <dt class="text-preset3-regular">Followers</dt>
+                        <dd class="text-preset1-bold">80K</dd>
+                    </div>
+                    <div class="flex gap-2 flex-col-reverse">
+                        <dt class="text-preset3-regular">Likes</dt>
+                        <dd class="text-preset1-bold">803K</dd>
+                    </div>
+                    <div class="flex gap-2 flex-col-reverse">
+                        <dt class="text-preset3-regular">Photos</dt>
+                        <dd class="text-preset1-bold">1.4K</dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
