@@ -245,6 +245,9 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
   .bg-\[url\(\.\.\/assets\/fondo\.webp\)\] {
     background-image: url(../assets/fondo.webp);
   }
